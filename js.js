@@ -150,3 +150,7 @@
 // git config --local user.name 'Anch'
 // git config --local user.email d3toony@gmail.com
 //
+// git add -A
+// git commit -a -m''
+// git push
+//
