@@ -216,3 +216,64 @@
 //         break;
 // };
 //
+// Логические операторы
+//
+// const hamburger = 5;
+// const fries = 6;
+//
+// if (hamburger && fries) {
+//     console.log('Товар доступен');
+// } else {
+//     console.log('Товар недоступен');
+// }
+//
+// const hamburger = 2;
+// const fries = 1;
+//
+// if (hamburger === 3 && fries) {
+//     console.log('Заказ возможен');
+// } else {
+//     console.log('Заказ невозможен');
+// }
+//
+//
+// const hamburger = 3;
+// const fries = 6;
+// const cola = 0;
+//
+// console.log(hamburger || cola || fries);
+//
+// const a = '';
+// const b = 1;
+// console.log(a ?? b);
+//
+// const hamburger = 3;
+// const fries = 3;
+// const cola = 2;
+//
+// if (hamburger || cola || fries) {
+//     console.log('Заказ возможен');
+// } else {
+//     console.log('Заказ невозможен');
+// }
+//
+// console.log(hamburger || cola || fries);
+//
+// let johnReport, alexReport, samReport, mariaReport = 'done';
+//
+// console.log(johnReport || alexReport || samReport || mariaReport);
+//
+// const hamburger = 3;
+// const fries = 3;
+// const cola = 0;
+// const nuggets = 2;
+//
+// if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
+//     console.log('Заказ возможен');
+// } else {
+//     console.log('Заказ невозможен');
+// }
+//
+// console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets);
+//
+
