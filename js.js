@@ -158,23 +158,61 @@
 //
 //
 // Практика №1. Консольное приложение
-
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
-
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-
-};
-
-const firstMovieName = prompt('Один из последних просмотренных фильмов?', ''),
-      firstMovieGrade = +prompt('На сколько оцените?', ''),
-      secondMovieName = prompt('Один из последних просмотренных фильмов?', ''),
-      secondMovieGrade = +prompt('На сколько оцените?', '');
-
-personalMovieDB.movies[firstMovieName] = firstMovieGrade;
-personalMovieDB.movies[secondMovieName] = secondMovieGrade;
-console.log(personalMovieDB);
+//
+// const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+//
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+//
+// };
+//
+// const firstMovieName = prompt('Один из последних просмотренных фильмов?', ''),
+//       firstMovieGrade = +prompt('На сколько оцените?', ''),
+//       secondMovieName = prompt('Один из последних просмотренных фильмов?', ''),
+//       secondMovieGrade = +prompt('На сколько оцените?', '');
+//
+// personalMovieDB.movies[firstMovieName] = firstMovieGrade;
+// personalMovieDB.movies[secondMovieName] = secondMovieGrade;
+// console.log(personalMovieDB);
+//
+//
+// Условия
+//
+// if (1) {
+//     console.log('This is true')
+// } else {
+//  console.log('This is false')
+// }
+//
+// const num = 50;
+// if (num < 49) {
+//     console.log('error');
+// } else if (num > 100) {
+//     console.log('Много')
+// } else {
+//     console.log('ok')
+// }
+//
+// const num = 50;
+// (num === 50) ? console.log('ok') : console.log('error');
+//
+// const num = 51;
+// switch (num) {
+//     case 49:
+//         console.log('Неверно');
+//         break;
+//     case 100:
+//             console.log('Неверно');
+//             break;
+//     case 50:
+//         console.log('Верно');
+//         break;
+//     default:
+//         console.log('В другой раз');
+//         break;
+// };
+//
