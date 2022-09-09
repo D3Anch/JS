@@ -153,4 +153,28 @@
 // git add -A
 // git commit -a -m''
 // git push
+// git pull
+// git cd ..
 //
+//
+// Практика №1. Консольное приложение
+
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+
+};
+
+const firstMovieName = prompt('Один из последних просмотренных фильмов?', ''),
+      firstMovieGrade = +prompt('На сколько оцените?', ''),
+      secondMovieName = prompt('Один из последних просмотренных фильмов?', ''),
+      secondMovieGrade = +prompt('На сколько оцените?', '');
+
+personalMovieDB.movies[firstMovieName] = firstMovieGrade;
+personalMovieDB.movies[secondMovieName] = secondMovieGrade;
+console.log(personalMovieDB);
