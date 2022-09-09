@@ -276,4 +276,30 @@
 //
 // console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets);
 //
+//
+// Циклы
+//
+// let num = 50;
+// while (num < 55) {
+// console.log(num);
+//     num++;
+// }
+//
+// do {
+//     console.log(num);
+//     num++;
+// } while (num < 55);
+//
+// for (let i = 1; i > 0; i++) {
+//     if (i === 6) {
+//         // break;
+//         continue
+//     }
+//     if (i === 1000) {
+//         break;
+//         // continue
+//     }
+//     console.log(i);
+// }
+//
 
