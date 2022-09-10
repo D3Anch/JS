@@ -351,14 +351,11 @@
 //
 // if (personalMovieDB.count <= 10 && personalMovieDB.count >= 1) {
 //     console.log('Просмотрено довольно мало фильмов')
-// }
-// if (personalMovieDB.count > 10 && personalMovieDB.count <= 30) {
+// } else if (personalMovieDB.count > 10 && personalMovieDB.count <= 30) {
 //     console.log('Вы классический зритель')
-// }
-// if (personalMovieDB.count > 30) {
+// } else if (personalMovieDB.count > 30) {
 //     console.log('Вы киноман')
-// }
-// if (personalMovieDB.count === 0) {
+// } else {
 //     console.log('Произошла ошибка')
 // }
 //
