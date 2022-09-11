@@ -375,3 +375,81 @@
 // console.log(personalMovieDB);
 //
 //
+// Функции
+//
+//
+// let num = 20;
+// function showFirstMessage(text) {
+//     console.log(text)
+//     const num = 10;
+// }
+//
+// showFirstMessage('Hello');
+// console.log(num)
+//
+// function calc(a, b) {
+//     return a+b;
+// }
+//
+// console.log(calc('a', 'b'))
+//
+// function ret() {
+//     const number = 12
+//     return number
+// }
+//
+// const anoutherNum = ret();
+// console.log(anoutherNum)
+//
+// const logger = function() {
+// console.log('Hello')
+// }
+//
+// logger();
+//
+//
+// const calc = (a, b) =>{
+//     console.log('1')
+//     return a + b
+// }
+//
+//
+// const usdCurr = 28;
+// const euroCurr = 27;
+//
+// function convert(amount, curr) {
+//     console.log(curr * amount)
+// }
+//
+// convert(500, usdCurr)
+// convert(500, euroCurr)
+//
+//
+// const usdCurr = 28;
+// const discount = 0.9;
+// function convert(amount, curr) {
+//     return amount * curr;
+//
+// }
+//
+// function promotion(result) {
+//     console.log(result * discount);
+// }
+//
+// const res = convert(500, usdCurr)
+// promotion(res);
+//
+// function test() {
+//     for (let i = 0; i < 5; i++) {
+//         console.log(i)
+//         if (i === 3) return
+//     }
+//     console.log('Finish')
+// }
+//
+// test()
+//
+// function doNothing() {}
+// console.log(doNothing() === undefined);
+//
+
