@@ -582,3 +582,121 @@
 //
 // learnJS('JavaScript', done);
 //
+//
+// Объект
+//
+//  const options = {
+//     name: 'Test',
+//     width: 1024,
+//      height: 1024,
+//      colors: {
+//         border: 'black',
+//          bg: 'red'
+//      },
+//      makeTest: function () {
+//         console.log('Test')
+//      }
+//  }
+//
+//  const {border, bg} = options.colors
+//
+// console.log(bg, border)
+//
+// options.makeTest();
+//
+//  console.log(options.name)
+//
+// delete options.name;
+//
+// console.log(options)
+//
+// let counter = 0;
+//
+// for (let key in options) {
+//     if (typeof(options[key]) === "object") {
+//         for ( let i in options[key]) {
+//             console.log(`Свойство ${i} имеет значение ${options[key][i]}` )
+//         }
+//     } else {
+//         console.log(`Свойство ${key} имеет значение ${options[key]}`)
+//     }
+// }
+//
+// for (let key in options) {
+//     counter++
+// }
+//
+// console.log(counter)
+//
+// console.log(Object.keys(options).length)
+//
+// const User3294812912 = {
+//     firstName: 'Ewan',
+//     lastName: 'Chils',
+//     age: 18,
+//     isStudent: true,
+//     city: 'Verdansk',
+//     family: {
+//         mom: {
+//             name: 'Anna',
+//             age: 45
+//         },
+//         father: {
+//             name: 'Stewe',
+//             age: 48
+//         }
+//
+//     }
+// }
+//
+// console.log(Object.keys(User3294812912).length)
+//
+// Массивы и псевдомассивы
+//
+// const arr = [1, 34, 2, 23, 5, 7, 9];
+//
+// arr.pop();
+//
+// console.log(arr)
+//
+// arr.push(10);
+//
+// console.log(arr)
+//
+// arr.shift()
+//
+// console.log(arr)
+//
+// arr.unshift(0.3)
+//
+// console.log(arr)
+//
+// console.log(arr.length)
+//
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i])
+// }
+//
+// for (let value of arr) {
+//     console.log(value)
+// }
+//
+// arr[99] = 0;
+//
+// console.log(arr.length)
+// console.log(arr)
+//
+// arr.forEach(function(item, index, arr) {
+// console.log(`${index}: ${item} внутри массива ${arr}`)
+// });
+//
+// const str = prompt('', '')
+// const products = str.split(', ')
+// products.sort()
+// console.log(products.join('; '))
+//
+// arr.sort(function compareNum(a, b) {
+//     return a-b
+// })
+// console.log(arr)
+//
