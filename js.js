@@ -452,4 +452,101 @@
 // function doNothing() {}
 // console.log(doNothing() === undefined);
 //
-
+// Методы строк и чисел
+//
+// const str = 'Test'
+// const arr = [1, 2, 5,]
+// console.log(str.length)
+// console.log(arr.length)
+// console.log(str.toLowerCase())
+//
+// const fruit = 'Some fruit';
+//
+// console.log(fruit.indexOf('fruit'))
+//
+// const logg = 'Hello, world'
+//
+// console.log(logg.slice(7, 12))
+// console.log(logg.substring(7, 12))
+// console.log(logg.substr(7, 5))
+//
+// const num = 12.3;
+// console.log(Math.round(num))
+//
+// const test = '12.2px';
+// console.log(parseInt(test))
+// console.log(parseFloat(test))
+//
+//
+// Практика №3
+//
+//
+// const personalMovieDB = {
+//     count: 0,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
+//
+// function start() {
+//     personalMovieDB.count = +prompt('Сколько фильмов вы уже посмотрели?', '');
+//     while (personalMovieDB.count === '' || personalMovieDB.count == null || isNaN(personalMovieDB.count) || personalMovieDB.count === 0) {
+//         personalMovieDB.count = +prompt('Сколько фильмов вы уже посмотрели?', '');
+//     }
+// }
+//
+// start()
+//
+// function detectPersonalLvl() {
+//     if (personalMovieDB.count <= 10) {
+//         console.log('Просмотрено довольно мало фильмов')
+//     } else if (personalMovieDB.count > 10 && personalMovieDB.count <= 30) {
+//         console.log('Вы классический зритель')
+//     } else if (personalMovieDB.count > 30) {
+//         console.log('Вы киноман')
+//     } else {
+//         console.log('Произошла ошибка')
+//     }
+// }
+//
+// detectPersonalLvl()
+//
+// function rememberMyFilms() {
+//     for (let i = 0; i < 2; i++) {
+//         const a = prompt('Один из последних просмотренных фильмов?', ''),
+//               b = +prompt('На сколько оцените?', '');
+//
+//         if (a && b && a.length < 50) {
+//             personalMovieDB.movies[a] = b;
+//             console.log('Finish')
+//         } else {
+//             console.log('Error');
+//             i--;
+//         }
+//     }
+// }
+//
+// rememberMyFilms()
+//
+// function showMyDB(hidden) {
+//     if (!hidden) {
+//         console.log(personalMovieDB)
+//     }
+// }
+//
+// // function showMyDB() {
+// //  if (personalMovieDB.privat === false) {
+// //      console.log(personalMovieDB)
+// //  }
+// // }
+//
+// showMyDB(personalMovieDB.privat)
+//
+// function writeYourGenres() {
+//     for (let i = 1; i <= 3; i++){
+//         personalMovieDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`);
+//     }
+// }
+//
+// writeYourGenres()
