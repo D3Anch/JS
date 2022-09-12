@@ -514,7 +514,7 @@
 //
 // function rememberMyFilms() {
 //     for (let i = 0; i < 2; i++) {
-//         const a = prompt('Один из последних просмотренных фильмов?', ''),
+//         const a = prompt('Один из последних просмотренных фильмов?', '').trim(),
 //               b = +prompt('На сколько оцените?', '');
 //
 //         if (a && b && a.length < 50) {
@@ -550,3 +550,35 @@
 // }
 //
 // writeYourGenres()
+//
+// Метод trim()
+//
+// str.trim()
+//
+// CallBack функция
+//
+// function first() {
+//     //
+//     setTimeout(function () {
+//         console.log(1);
+//     }, 1000)
+// }
+//
+// function second() {
+// console.log(2)
+// }
+//
+// first();
+// second();
+//
+// function learnJS(lang, callback) {
+//     console.log(`Я учу ${lang}`);
+//     callback()
+// }
+//
+// function done() {
+//     console.log('Я прошел этот урок')
+// }
+//
+// learnJS('JavaScript', done);
+//
