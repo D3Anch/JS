@@ -972,3 +972,96 @@
 //
 // console.log(c1, c2, c3)
 //
+// Задачи на собесах
+//
+// let x = 5;
+// console.log(x++)
+// console.log(x)
+//
+// console.log([] + false + null + true)
+// console.log([]+1+2)
+// const a = [1, 2, 3]
+// const b = [1, 2, 3]
+// console.log('1'[0])
+// console.log(2 && 1 && null && 0 && undefined)
+// console.log(!!(a && b))
+// console.log(a && b)
+// console.log(null || 2 && 3 || 4)
+// console.log(a == b)
+// console.log(+'Infinity')
+// console.log('Ежик' < 'яблоко')
+// console.log(0 || '' || 2 || undefined || true || false)
+//
+//
+// Работа со страницей
+//
+// const box = document.getElementById('box')
+// console.log(box)
+//
+// const btns = document.getElementsByTagName('button')
+//
+// console.log(btns[3])
+// console.log(btns[1])
+//
+// const circles = document.getElementsByClassName('circle')
+// console.log(circles)
+//
+// const hearts = document.querySelectorAll('.heart')
+// // console.log(hearts)
+// hearts.forEach(item => {
+//     console.log(item)
+// })
+//
+// const oneHeart = document.querySelector('.heart')
+// console.log(oneHeart)
+//
+//
+// const box = document.getElementById('box')
+// const btns = document.getElementsByTagName('button')
+// const circles = document.getElementsByClassName('circle')
+// const hearts = document.querySelectorAll('.heart')
+// const OneHeart = document.querySelector('.heart')
+// const wrapper = document.querySelector('.wrapper')
+//
+// box.style.backgroundColor = 'blue'
+// box.style.width = '500px'
+//
+// box.style.cssText = 'background-color: blue; width: 500px'
+//
+// btns[1].style.borderRadius = '100%'
+// circles[0].style.backgroundColor = 'red'
+//
+// for (let i = 0; i < hearts.length; i++) {
+//     hearts[i].style.backgroundColor = 'Blue'
+// }
+//
+// hearts.forEach(item => {
+//     item.style.backgroundColor = 'Blue'
+// })
+//
+const div = document.createElement('div')
+// const test = document.createTextNode('Ekasmfdas kasmdaskdma aksmdaslkdm')
+//
+div.classList.add('black')
+// document.body.append(div)
+// document.querySelector('.wrapper').append(div)
+//
+wrapper.append(div)
+// wrapper.appendChild(div)
+// wrapper.prepend(div)
+// hearts[0].after(div)
+//
+// wrapper.insertBefore(div, hearts[0])
+//
+// circles[0].remove()
+// circles.removeChild(hearts[1])
+//
+// hearts[0].replaceWith(circles[0])
+//
+// wrapper.replaceChild(hearts[0], circles[0])
+//
+// div.innerHTML = '<h1>Hello World</h1>'
+// div.textContent = 'Hulk'
+//
+// div.insertAdjacentHTML('afterend', '<h2>Hello</h2>')
+//
